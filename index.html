@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce Flower Shop</title>
-
     <link rel="stylesheet" href="style.css"> 
 </head>
+<body>
     <div id="signup-page">
         <h2>Sign Up to Bloom Bliss</h2>
 
         <form id="signup-form">
             <input type="text" id="username" placeholder="Enter your name" required><br>
-
             <input type="email" id="email" placeholder="Enter your email" required><br>
-
             <input type="password" id="password" placeholder="Enter your password" required><br>
-
             <button type="button" onclick="handleSignUp()">Sign Up</button>
         </form>
     </div>
     <div id="flower-shop-page">
-
         <header>
             <h1>Flower Shop</h1>
             <div class="nav-container">
@@ -32,49 +28,39 @@
                     <a onclick="showSection('Contact')">Contact</a>
                 </nav>
             </div>
-		</header>
-<body>	
+        </header>
         <section id="Home">
             <h2>Welcome to Our Flower Shop</h2>
-
             <p>
                 We offer the freshest and most beautiful flowers for any occasion.
                 Whether it's a birthday, wedding, or just a thoughtful gift,
                 we have something for everyone.
             </p>
-
             <h3>Why Choose Us?</h3>
-
             <p>Fresh flowers delivered daily</p>
             <p>Wide variety of bouquets and arrangements</p>
             <p>Fast and reliable delivery service</p>
         </section>
-		
         <section id="About" class="hidden">
             <h2>About Us</h2>
-
             <p>
                 Bloom Bliss was founded in 2026 with a mission to provide
                 high-quality, fresh flowers to customers who appreciate beauty
                 and nature's touch.
             </p>
-
             <h3>Our Values</h3>
-
             <p>Quality</p>
             <p>Customer Satisfaction</p>
             <p>Environmentally Conscious</p>
         </section>
         <section id="Contact" class="hidden">
             <h2>Contact Us</h2>
-
             <p>
                 Let our blooms brighten your special moments.
                 Contact us today to place your order.
             </p>
             <p>Phone: +91 123456789</p>
             <h3>Follow Us on Social Media</h3>
-
             <p>
                 <a href="https://facebook.com/bloombliss">Facebook</a>
                 <a href="https://instagram.com/bloombliss">Instagram</a>
@@ -83,88 +69,61 @@
         <main id="Shop" class="hidden">
             <h2>Our Flowers</h2>
             <div class="product-container">
-				
                 <div class="product-card">
                     <img src="rose.jpg" alt="Rose Bouquet">
                     <h3>Rose Bouquet</h3>
                     <p>$25.00</p>
-                    <button onclick="addToCart('Rose Bouquet', 25)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Rose Bouquet', 25)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="3.jpg" alt="Tulip Bouquet">
                     <h3>Tulip Bouquet</h3>
                     <p>$20.00</p>
-                    <button onclick="addToCart('Tulip Bouquet', 20)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Tulip Bouquet', 20)">Add to Cart</button>
                 </div>
 
                 <div class="product-card">
                     <img src="lilly.jpg" alt="Lily Bouquet">
                     <h3>Lily Bouquet</h3>
                     <p>$30.00</p>
-                    <button onclick="addToCart('Lily Bouquet', 30)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Lily Bouquet', 30)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="4.jpg" alt="Sunflower Bouquet">
                     <h3>Sunflower Bouquet</h3>
                     <p>$35.00</p>
-                    <button onclick="addToCart('Sunflower Bouquet', 35)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Sunflower Bouquet', 35)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="chrysanthemum.jpg" alt="Chrysanthemum Bouquet">
                     <h3>Chrysanthemum Bouquet</h3>
                     <p>$50.00</p>
-                    <button onclick="addToCart('Chrysanthemum Bouquet', 50)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Chrysanthemum Bouquet', 50)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="camellia.jpg" alt="Camellia Bouquet">
                     <h3>Camellia Bouquet</h3>
                     <p>$55.00</p>
-                    <button onclick="addToCart('Camellia Bouquet', 55)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Camellia Bouquet', 55)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="champa.jpg" alt="Champa Bouquet">
                     <h3>Champa Bouquet</h3>
                     <p>$25.00</p>
-                    <button onclick="addToCart('Champa Bouquet', 25)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Champa Bouquet', 25)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="cherry blossom.jpg" alt="Cherry Blossom Bouquet">
                     <h3>Cherry Blossom Bouquet</h3>
                     <p>$35.00</p>
-                    <button onclick="addToCart('Cherry Blossom Bouquet', 35)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Cherry Blossom Bouquet', 35)">Add to Cart</button>
                 </div>
-
                 <div class="product-card">
                     <img src="orchid.jpg" alt="Orchid Bouquet">
                     <h3>Orchid Bouquet</h3>
                     <p>$60.00</p>
-                    <button onclick="addToCart('Orchid Bouquet', 60)">
-                        Add to Cart
-                    </button>
+                    <button onclick="addToCart('Orchid Bouquet', 60)">Add to Cart</button>
                 </div>
-
             </div>
             <div id="cart-summary" class="cart-summary">
                 <h3>Your Cart</h3>
@@ -176,7 +135,6 @@
         <footer>
             <p>&copy; 2026 New Flower Shop. All rights reserved.</p>
         </footer>
-
     </div>
     <script src="script.js"></script>
 
