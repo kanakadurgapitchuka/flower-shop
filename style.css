@@ -6,7 +6,7 @@ body {
     padding: 0;
     min-height: 100vh;
 }
-header {
+header { 
     background-color: #ff4081;
     color: white;
     padding: 20px;
